@@ -1,6 +1,6 @@
-var fs = require('fs');
-var path = require('path');
-var handlebars = require('handlebars');
+const fs = require('fs');
+const path = require('path');
+const handlebars = require('handlebars');
 
 const getTemplate = (templateName) => {
     const templatePath = path.join(__dirname, `../templates/${templateName}.html`);
@@ -10,7 +10,7 @@ const getTemplate = (templateName) => {
 
 const getClientTemplate = (data) => {
     const template = getTemplate('ThankYou');
-    return template({receptientName: data});
+    return template({recepientName: data});
 }
 
 const getCompanyTemplate = (data) => {
