@@ -1,4 +1,4 @@
-var { mailgun } = require('../configs/mailgun');
+const { mailgun } = require('../configs/mailgun');
 
 const sendMail = async (name, email, subject, html, text) => {
     try {

@@ -1,8 +1,8 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var morgan = require('morgan');
-var helmet = require('helmet');
-var app = express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const helmet = require('helmet');
+const app = express();
 
 app.use(helmet());
 app.use(morgan('dev'));

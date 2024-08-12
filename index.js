@@ -1,6 +1,6 @@
-var { getEnv } = require('./src/utils/getEnv');
-var { db } = require('./src/configs/db');
-var { app } = require('./src/app');
+const { getEnv } = require('./src/utils/getEnv');
+const { db } = require('./src/configs/db');
+const { app } = require('./src/app');
 
 db.connect((err) => {
     if(err) {
@@ -15,6 +15,3 @@ db.connect((err) => {
         });
     }
 })
-
-
-
