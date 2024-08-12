@@ -1,0 +1,38 @@
+{
+  "name": "cclaims-be",
+  "version": "1.0.0",
+  "description": "Backend API for enquiry sending using Mailgun API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aulanchik/cclaims-be.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mailgun",
+    "handlebars",
+    "templating",
+    "express"
+  ],
+  "author": "Artyom <artyom.u@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aulanchik/cclaims-be/issues"
+  },
+  "homepage": "https://github.com/aulanchik/cclaims-be#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "handlebars": "^4.7.8",
+    "helmet": "^7.1.0",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.4"
+  }
+}
